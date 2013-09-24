@@ -1,11 +1,12 @@
 
 
-class vim {
+class vim (
+){
 
     case $operatingsystem {
         'Debian': { 
                     $pkgvim = "vim"
-                    $vimrcpath = "/etc/vimrc"
+                    $vimrcpath = "/etc/vim/vimrc"
                     $vimcolorpath = "/usr/share/vim/vimcurrent/colors/denseh.vim"
                   }
         default: { 
